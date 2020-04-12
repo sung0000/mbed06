@@ -139,11 +139,11 @@ int main() {
 
       uLCD.printf("FXOS8700Q ACC: X=%1.4f(%x%x) Y=%1.4f(%x%x) Z=%1.4f(%x%x)\r\n",\
 
-            t[0], res[0], res[1],\
+            t[0], res[0], res[1],
 
-            t[1], res[2], res[3],\
+            t[1], res[2], res[3],
 
-            t[2], res[4], res[5]\);
+            t[2], res[4], res[5]);
 
 
       wait(1.0);
